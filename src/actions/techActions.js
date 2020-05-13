@@ -22,7 +22,7 @@ export const getTechs =()=> async dispatch =>{
     }
    
 };
-
+//Add Tech
 export const addTech =(tech)=> async dispatch =>{
     try{
         setLoading();
@@ -48,7 +48,7 @@ export const addTech =(tech)=> async dispatch =>{
     }
    
 };
-
+//Delete tech
 export const deleteTech =(id)=> async dispatch =>{
     try{
         setLoading();
