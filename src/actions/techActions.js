@@ -54,7 +54,7 @@ export const deleteTech =(id)=> async dispatch =>{
         setLoading();
 
         const res = await fetch (`/techs/${id}`, {
-            method:"DELETE"
+            method: "DELETE"
         });
        
 
